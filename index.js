@@ -18,13 +18,14 @@ When you're done, remember to commit and push your changes up to GitHub, then
 submit your work to Canvas using CodeGrade. */
 
 function receivesAFunction(callback) {
-    callback();
+    callback()
 }
 
 function returnsANamedFunction() {
-    return function namedFunction() {};
+    return function namedFunction() {}
 }
 
+
 function returnsAnAnonymousFunction() {
-    return function() {};
+    return function() {}
 }
